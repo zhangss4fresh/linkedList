@@ -15,3 +15,13 @@ class Node(object):
         self.next = next
     def __repr__(self):
         return str(self.data)
+
+
+class linkList(object):
+    def __init__(self):
+        self.head = Node(None)
+        self.length = 0
+
+
+if __name__ == '__main__':
+
